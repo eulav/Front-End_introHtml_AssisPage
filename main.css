@@ -1,0 +1,19 @@
+html{
+    text-align: center;
+}
+
+h1{ /*para estilizar as tags*/
+    font-size: xx-large;
+    background-color: aquamarine;
+}
+
+.ads{ /*para estilizar classes*/
+    font-style: italic;
+    color: palevioletred;
+    background-color: black;
+}
+
+#devfont{ /*para estilizar id's*/
+    background-color: seagreen;
+}
+
