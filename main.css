@@ -1,19 +1,25 @@
-html{
-    text-align: center;
-}
+
 
 h1{ /*para estilizar as tags*/
     font-size: xx-large;
-    background-color: aquamarine;
+   
 }
 
-.ads{ /*para estilizar classes*/
-    font-style: italic;
-    color: palevioletred;
-    background-color: black;
+.bannerEimagemInicial{ /*para estilizar classes*/
+    align-self: center;
 }
 
-#devfont{ /*para estilizar id's*/
-    background-color: seagreen;
+.conto1 {
+    align-self: flex-start;
 }
+
+.conto2 {
+    align-self: flex-end;
+}
+
+/*
+#id{ /*para estilizar id's
+
+}
+*/
 
