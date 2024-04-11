@@ -5,16 +5,39 @@ h1{ /*para estilizar as tags*/
    
 }
 
-.bannerEimagemInicial{ /*para estilizar classes*/
-    align-self: center;
+.flex-container{ /*para estilizar classes*/
+    display: flex;
+    margin: 0;
+    /*width: 0;*/
+    padding: 0;
 }
 
-.conto1 {
-    align-self: flex-start;
+.horizontal{
+    flex-direction: row;
+    justify-content: center;
+}
+.centralizado{
+    justify-content: center;
 }
 
-.conto2 {
-    align-self: flex-end;
+.vertical{
+    flex-direction: column;
+ 
+   
+}
+.esquerda{
+    width: 50%;
+    float: left;
+    
+}
+
+.direita{
+    width: 50%;
+    float: right;
+}
+
+.quebraConteudo{
+    flex-direction: column;
 }
 
 /*
